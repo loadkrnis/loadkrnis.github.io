@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: `Charming-Tech`,
   tagline: 'Dinosaurs are cool',
-  url: 'https://loadkrnis.github.ui',
+  url: 'https://loadkrnis.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
