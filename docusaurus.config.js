@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
 
   presets: [
@@ -41,6 +41,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          archiveBasePath: "archive",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -75,6 +76,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          { to: "/archive", label: "Archive", position: "left" },
         ],
       },
       footer: {
